@@ -9,8 +9,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<% MessageVO vo  = (MessageVO)request.getAttribute("vo");
-		out.println(vo);		
+	<% 
+	MessageVO vo  = (MessageVO)request.getAttribute("vo");
+	out.println(vo);	
 	%>
 	<table>
 		<tr>

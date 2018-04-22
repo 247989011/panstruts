@@ -1,0 +1,42 @@
+/*  */
+
+{
+	"action-mapping":
+	{
+		{
+			"beanName":"panduan",
+			"beanClass":"com.struts.bisness.PandForm",	
+			"actionClass":"com.struts.bisness.PandAction",
+			"path":"/sss",
+			"forward":
+			{
+				{
+					"name":"success",
+					"value":"view/bisness/pand.jsp",
+				},
+				{
+					"name":"error",
+					"value":"view/bisness/error.jsp",
+				}
+			}
+		},
+		{
+			"beanName":"panduan1",
+			"beanClass":"com.struts.bisness.PandForm1",	
+			"actionClass":"com.struts.bisness.PandAction1",
+			"path":"/sss1",
+			"forward":
+			{
+				{
+					"name":"success",
+					"value":"view/bisness/pand1.jsp",
+				},
+				{
+					"name":"error",
+					"value":"view/bisness/error1.jsp",
+				}
+			}
+		}
+	}
+
+}

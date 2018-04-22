@@ -7,8 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="<%=request.getContextPath() %>/a.do" method="post">
-		<input type="text" name="text">
+	<form action="<%=request.getContextPath() %>/sss.do" method="post">
+		<input type="text" name="a">
+		<input type="text" name="b">
+		<input type="text" name="c">
+		
 		<input type="submit">
 	</form>
 </body>

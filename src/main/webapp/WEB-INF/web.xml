@@ -19,4 +19,11 @@
     <servlet-name>ActionServlet</servlet-name>
     <url-pattern>*.do</url-pattern>
   </servlet-mapping>
+  <context-param>
+  	<param-name>struts-config</param-name>
+  	<param-value>/WEB-INF/classes/struts-config.xml</param-value>
+  </context-param>
+  <listener>
+  	<listener-class>com.struts.action.InitLisenter</listener-class>
+  </listener>
 </web-app>

@@ -1,5 +1,8 @@
 #学习编写struts-mvn框架
 
+## 时序图
+![mystruts参考时序图]("https://github.com/247989011/panstruts/blob/master/mystruts%20mvc%20%E6%97%B6%E5%BA%8F%E5%9B%BE.png")
+
 ## 应用到了技术：
 [JavaAPI:] (http://jszx-jxpt.cuit.edu.cn/JavaAPI/)
 
@@ -52,3 +55,4 @@
  </build> 
  
 ```
+
